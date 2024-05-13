@@ -1,4 +1,4 @@
-# WCH Flask boilerplate
+# WCH Flask Boilerplate
 
 Quick and dirty boilerplate for a Flask app with Tailwind/HTMX.
 
