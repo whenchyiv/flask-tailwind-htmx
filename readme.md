@@ -1,6 +1,6 @@
 # WCH Flask Boilerplate
 
-Quick and dirty boilerplate for a Flask app with Tailwind/HTMX.
+Quick and dirty boilerplate for a Flask app with Tailwind CSS and HTMX.
 
 ## Setup
 1. Create a virtualenv using python 3.11+ (e.g. `virtualenv .venv -p python3.11`)
