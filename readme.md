@@ -27,7 +27,7 @@ Blocks:
 - `scripts` bottom of the body tag for javascript
 
 ### Miscellaneous Notes
-- `./twcompile.sh` is a shortcut script for Tailwind compilation (defaults input from `src/tailwindcss/input.css` and minified output to `static/css/dist.css`). Defaults to Mac. Replace as needed.
+- `./twcompile.sh` is a shortcut script for Tailwind compilation (defaults input from `src/tailwindcss/input.css` and minified output to `static/css/dist.css`). Get a binary here: https://tailwindcss.com/blog/standalone-cli
 - The `env.py` file in the app root directory is required for secrets. This is loaded by `config.py` during app creation, and is used by the `DevelopmentConfig` class.
 - App is set up with a basic blueprint (`front_page/` for front page views).
 - If you need access to the app object, avoid circular imports with `from flask import current_app`.
