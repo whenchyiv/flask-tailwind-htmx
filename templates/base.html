@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        {# Meta tags + defaults #}
+        {% if not title %}
+            {% set title = 'WCH Flask Boilerplate' %}
+        {% endif %}
+        {% if not description %}
+            {% set description = '' %}
+        {% endif %}
+        <title>{{ title }}</title>
+        <meta name="description" content="{{ description }}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/dist.css') }}" />
+        {# Head block #}
+        {% block head %}{% endblock %}
+    </head>
+    <body>
+        {# Body block #}
+        {% block body %}{% endblock %}
+        {# Scripts #}
+        <script src="{{ url_for('static', filename='js/htmx.min.js')}}"></script>
+        {% block scripts %}{% endblock %}
+    </body>
+</html>

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply p-8;
+    @apply bg-white text-slate-950;
+    @apply dark:bg-black dark:text-slate-50;
+}
