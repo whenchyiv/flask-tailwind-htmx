@@ -6,7 +6,8 @@ Quick and dirty boilerplate for a Flask app with Tailwind CSS and HTMX.
 1. Create a virtualenv using python 3.11+ (e.g. `virtualenv .venv -p python3.11`)
 2. Install requirements: `source .venv/bin/activate && pip install -r requirements.txt`
 3. Create an `env.py` file in the app's root directory and add the var `SECRET_KEY: str = 'yourkeyhere'`
-4. `flask run --debug`
+4. Grab the relevant Tailwind CSS binary for your platform and rename it to `tailwindcss`: https://tailwindcss.com/blog/standalone-cli
+5. `flask run --debug`
 
 ## Deployment Notes
 - Set an env var PRODUCTION=1 to load the production config, rather than the default development config.
