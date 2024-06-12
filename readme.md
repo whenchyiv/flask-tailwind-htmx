@@ -12,6 +12,7 @@ Quick and dirty boilerplate for a Flask app with Tailwind CSS and HTMX.
 ## Deployment Notes
 - Set an env var PRODUCTION=1 to load the production config, rather than the default development config.
 - Includes a basic Procfile and runtime.txt for Railway/Heroku deployment.
+- Includes a basic Dockerfile for container-based deployments.
 - Suggest using whitenoise for static files in prod: https://whitenoise.readthedocs.io/en/stable/flask.html
 
 ## Other Info
